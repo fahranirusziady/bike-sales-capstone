@@ -46,3 +46,16 @@ Proyek ini menganalisis dataset penjualan sepeda untuk menemukan profil pelangga
 5. **Pantau Penurunan Profit** → investigasi penurunan tahun 2016 (kompetitor, demand, atau faktor eksternal).  
 
 ## Struktur Repository  
+Capstone_Project_Bike_Sales/
+│── README.md # Dokumentasi utama proyek
+│── insights_summary.md # Ringkasan insight & rekomendasi
+│── Capstone_Project.ipynb # Notebook analisis (Colab/Jupyter)
+│── bike_data.csv # Dataset mentah (jika diperbolehkan publik)
+│── bike_data_cleaned.csv # Dataset hasil pembersihan
+│── images/ # Folder berisi grafik visualisasi
+
+
+## 🚀 Cara Menjalankan  
+1. Clone repository:  
+   ```bash
+   git clone https://github.com/fahranirusziady/bike-sales-capstone.git
