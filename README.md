@@ -54,6 +54,9 @@ Capstone_Project_Bike_Sales/
 │── bike_data_cleaned.csv # Dataset hasil pembersihan
 │── images/ # Folder berisi grafik visualisasi
 
+Link Dataset Bike Sales :
+https://drive.google.com/drive/folders/1mQ1-0lJJkPA1Gl2KYdXsCNr-5DF_juKT?usp=sharing
+https://www.kaggle.com/code/ahmedterry/bike-sales-analysis/notebook
 
 ## 🚀 Cara Menjalankan  
 1. Clone repository:  
