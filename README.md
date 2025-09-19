@@ -1,64 +1,70 @@
-#Capstone Project: Analisis Penjualan Sepeda  
+# 🚴‍♂️ Bike Sales Capstone
 
-## Latar Belakang Proyek  
-Proyek ini menganalisis dataset penjualan sepeda untuk menemukan profil pelanggan, tren geografis, performa produk, serta pola pendapatan. Tujuannya adalah menghasilkan insight dan rekomendasi yang dapat digunakan untuk mendukung strategi bisnis, pemasaran, dan penjualan.  
+Proyek analisis data penjualan sepeda untuk memahami pola pembelian pelanggan berdasarkan usia, pendapatan, dan faktor lain.  
+Hasil project ini berupa **analytical result**, **insight & findings**, serta **recommendations** yang dapat membantu strategi penjualan sepeda.
 
-## Tujuan  
-- Melakukan pembersihan dan persiapan data untuk analisis.  
-- Mengklasifikasikan kategori pendapatan (Tinggi / Sedang / Rendah).  
-- Membuat visualisasi terkait demografi pelanggan, distribusi geografis, produk, serta tren finansial.  
-- Menyimpulkan insight utama dan memberikan rekomendasi bisnis.  
+---
 
-## Dataset  
-- **Sumber**: Dataset sampel publik (fiksi penjualan sepeda) via Kaggle.  
-- **Periode**: 2011 – 2016  
-- **Fitur Utama**: Demografi pelanggan, lokasi, informasi produk, pendapatan, biaya, dan profit.  
+## 📂 Dataset
+- **Sumber:** [Bike Sales Dataset](https://drive.google.com/drive/folders/1mQ1-0lJJkPA1Gl2KYdXsCNr-5DF_juKT?usp=sharing
+https://www.kaggle.com/code/ahmedterry/bike-sales-analysis/notebook)  
+- **Jumlah data:** ±1.000 records  
+- **Kolom utama:** Age, Income, Gender, Purchase, dsb.
 
-## Metodologi  
-1. **Pembersihan Data**:  
-   - Menghapus data duplikat & menangani nilai kosong.  
-   - Konversi kolom tanggal ke format datetime.  
-   - Normalisasi kolom numerik.  
+---
 
-2. **Klasifikasi**:  
-   - Pendapatan dikelompokkan ke kategori: *Tinggi, Sedang, Rendah*.  
+## 📊 Visualizations
 
-3. **Visualisasi**:  
-   - Distribusi umur, gender, negara, kategori produk.  
-   - Tren pendapatan bulanan.  
-   - Analisis profit tahunan.  
+### Profit Trend Month
+![Profit Trend Month](images/001.png)
 
-4. **Ringkasan**:  
-   - Menyajikan insight utama terkait pelanggan, lokasi, produk, dan tren finansial.  
+### Profit Trend Pendapatan
+![Profit Trend Pendapatan](images/002.png)
 
-## Insight Utama  
-- Mayoritas pelanggan adalah **Adults (35–64)** dan **Young Adults (25–34)**.  
-- Penjualan terkuat berasal dari **Australia & Canada**, disusul **USA**.  
-- Hanya terdapat 1 produk: *Hitch Rack – 4-Bike* dengan harga $120 dan margin profit 62,5%.  
-- Pendapatan musiman dengan puncak di **Mei** dan **Desember**.  
-- Profit meningkat 2011–2015, menurun di 2016 (indikasi pasar mulai jenuh).  
+### Product Category Distribution
+![Product Category Distribution](images/003.png)
 
-## Rekomendasi  
-1. **Targeted Marketing** → fokus ke segmen Adults (35–64) & Young Adults (25–34).  
-2. **Strategi Geografis** → perkuat penetrasi di Australia & Canada, ekspansi lebih agresif ke USA.  
-3. **Diversifikasi Produk** → kurangi ketergantungan pada satu produk dengan meluncurkan variasi baru.  
-4. **Promosi Musiman** → tingkatkan stok & kampanye promosi di bulan dengan penjualan tertinggi.  
-5. **Pantau Penurunan Profit** → investigasi penurunan tahun 2016 (kompetitor, demand, atau faktor eksternal).  
+### Customer Country Distribution
+![Customer Country Distribution](images/004.png)
 
-## Struktur Repository  
-Capstone_Project_Bike_Sales/
-│── README.md # Dokumentasi utama proyek
-│── insights_summary.md # Ringkasan insight & rekomendasi
-│── Capstone_Project.ipynb # Notebook analisis (Colab/Jupyter)
-│── bike_data.csv # Dataset mentah (jika diperbolehkan publik)
-│── bike_data_cleaned.csv # Dataset hasil pembersihan
-│── images/ # Folder berisi grafik visualisasi
+### Monthly Revenue
+![Monthly Revenue](images/005.png)
 
-Link Dataset Bike Sales :
-https://drive.google.com/drive/folders/1mQ1-0lJJkPA1Gl2KYdXsCNr-5DF_juKT?usp=sharing
-https://www.kaggle.com/code/ahmedterry/bike-sales-analysis/notebook
+### Customer Gender Distribution
+![ Customer Gender Distribution](images/006.png)
 
+---
+
+## ✅ Output
+
+### 🔹 Analytical Result
+- Data cleaning & preprocessing dilakukan dengan Python (pandas, numpy).  
+- Visualisasi menggunakan matplotlib & seaborn.  
+- Statistik deskriptif menunjukkan rata-rata usia pelanggan ±35 tahun.  
+
+### 🔹 Insights & Findings
+- Usia 30–40 tahun = kelompok pembeli terbesar.  
+- Pendapatan tinggi → lebih cenderung membeli sepeda.  
+- Pelanggan pria sedikit lebih banyak membeli dibanding wanita.  
+
+### 🔹 Recommendations
+- Fokus kampanye marketing ke kelompok usia 30–40 tahun.  
+- Paket cicilan untuk segmen pendapatan menengah agar meningkatkan konversi.  
+- Strategi pemasaran berbeda untuk pria & wanita (contoh: sepeda sport vs sepeda city).  
+
+---
+
+## 🛠️ Tech Stack
+- Python (pandas, matplotlib, seaborn)  
+- Jupyter Notebook  
+- GitHub  
+
+---
 ## 🚀 Cara Menjalankan  
 1. Clone repository:  
    ```bash
    git clone https://github.com/fahranirusziady/bike-sales-capstone.git
+   
+## ✨ Author
+**Fahrani Rusziady**  
+🌐 [GitHub](https://github.com/fahranirusziady) | 💼 [LinkedIn](https://linkedin.com/in/fahranirusziady) | ✉️ fahranirusziady@gmail.com  
