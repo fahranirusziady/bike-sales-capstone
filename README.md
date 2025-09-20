@@ -58,7 +58,7 @@ Hasil project ini berupa **analytical result, insight & findings**, serta **reco
 
 ---
 ## 🚀 Cara Menjalankan
-'''bash
+````bash```
 git clone https://github.com/fahranirusziady/bike-sales-capstone.git
 cd bike-sales-capstone
 # Install dependencies
