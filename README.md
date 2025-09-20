@@ -25,8 +25,7 @@ Hasil project ini berupa **analytical result, insight & findings**, serta **reco
 
 ### Revenue & Profit Patterns
 <img src="images/TrenRevenueperTahun.png" width="45%" />
-<img src="images/images/TrenProfitBulanan.png" width="45%" />
- 
+<img src="images/TrenProfitBulanan.png" width="45%" />
 
 ---
 
@@ -39,7 +38,7 @@ Hasil project ini berupa **analytical result, insight & findings**, serta **reco
 
 ### 🔹 Insights & Findings
 - **Kelompok pembeli terbesar**: Usia 30–50 tahun (Adults & Young Adults)  
-- **Pendapatan tinggi** → lebih cenderung membeli sepeda  
+- **Pendapatan tinggi →** lebih cenderung membeli sepeda  
 - **Perbedaan gender**: Pria sedikit lebih banyak membeli, tetapi preferensi produk mirip  
 - High-value customers identified untuk strategi retention & upselling  
 
@@ -59,7 +58,7 @@ Hasil project ini berupa **analytical result, insight & findings**, serta **reco
 
 ---
 ## 🚀 Cara Menjalankan
-```bash
+'''bash
 git clone https://github.com/fahranirusziady/bike-sales-capstone.git
 cd bike-sales-capstone
 # Install dependencies
@@ -68,9 +67,9 @@ pip install -r requirements.txt
 jupyter notebook notebooks/bike_sales_analysis.ipynb
 
 
+## ✨ Author
 
----
-## ✨ Author **Fahrani Rusziady** 🌐 [GitHub](https://github.com/fahranirusziady) | 💼 [LinkedIn](https://linkedin.com/in/fahranirusziady) | ✉️ fahranirusziady@gmail.com
-
-
-
+- **Name**: Fahrani Rusziady
+- **GitHub**: [fahranirusziady](https://github.com/fahranirusziady)
+- **LinkedIn**: [fahranirusziady](https://linkedin.com/in/fahranirusziady)
+- **Email**: fahranirusziady@gmail.com
