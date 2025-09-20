@@ -37,14 +37,14 @@
 
 ---
 
-### 4️⃣ High-Value Customers 💎
+### 4️⃣ High-Value Customers 
 - Pelanggan dengan >200 orders: top 3 customer IDs → 781 orders total  
 - Fokus strategi retention & upselling pada segmen ini  
 
 ---
 
-### 5️⃣ Recommendations 📌
+### 5️⃣ Recommendations 
 1. **Target Marketing**: Fokus pada usia 30–50 tahun (Young Adults & Adults)  
 2. **Promosi & Paket Cicilan**: Untuk segmen pendapatan menengah  
-3. **Gender-Specific Campaigns**: Contoh: sepeda sport untuk pria, sepeda city untuk wanita 🚴‍♂️🚴‍♀️  
-4. **High-Value Retention**: Loyalty programs, personalisasi marketing, bundling produk 🎁  
+3. **Gender-Specific Campaigns**: Contoh: sepeda sport untuk pria, sepeda city untuk wanita
+4. **High-Value Retention**: Loyalty programs, personalisasi marketing, bundling produk 
