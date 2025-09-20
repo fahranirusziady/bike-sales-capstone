@@ -57,19 +57,16 @@ Hasil project ini berupa **analytical result, insight & findings**, serta **reco
 - Git & GitHub  
 
 ---
+
 ## 🚀 Cara Menjalankan
-````bash```
+```bash
 git clone https://github.com/fahranirusziady/bike-sales-capstone.git
 cd bike-sales-capstone
-# Install dependencies
 pip install -r requirements.txt
-# Jalankan Jupyter Notebook
 jupyter notebook notebooks/bike_sales_analysis.ipynb
-
-
+```
 ## ✨ Author
-
-- **Name**: Fahrani Rusziady
-- **GitHub**: [fahranirusziady](https://github.com/fahranirusziady)
-- **LinkedIn**: [fahranirusziady](https://linkedin.com/in/fahranirusziady)
-- **Email**: fahranirusziady@gmail.com
+**Fahrani Rusziady**  
+🌐 [GitHub](https://github.com/fahranirusziady)  
+💼 [LinkedIn](https://linkedin.com/in/fahranirusziady)  
+✉️ fahranirusziady@gmail.com
