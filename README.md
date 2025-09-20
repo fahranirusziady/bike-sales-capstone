@@ -1,70 +1,73 @@
 # 🚴‍♂️ Bike Sales Capstone
 
-Proyek analisis data penjualan sepeda untuk memahami pola pembelian pelanggan berdasarkan usia, pendapatan, dan faktor lain.  
-Hasil project ini berupa **analytical result**, **insight & findings**, serta **recommendations** yang dapat membantu strategi penjualan sepeda.
+Proyek analisis data penjualan sepeda untuk memahami pola pembelian pelanggan berdasarkan usia, gender, dan kategori produk.  
+Hasil project ini berupa **analytical result, insight & findings**, serta **recommendations** yang dapat membantu strategi penjualan sepeda.
 
 ---
 
 ## 📂 Dataset
-- **Sumber:** [Bike Sales Dataset](https://drive.google.com/drive/folders/1mQ1-0lJJkPA1Gl2KYdXsCNr-5DF_juKT?usp=sharing
-https://www.kaggle.com/code/ahmedterry/bike-sales-analysis/notebook)  
-- **Jumlah data:** ±1.000 records  
-- **Kolom utama:** Age, Income, Gender, Purchase, dsb.
+- **Sumber**: [Bike Sales Dataset](https://drive.google.com/drive/folders/1mQ1-0lJJkPA1Gl2KYdXsCNr-5DF_juKT?usp=sharing) | [Kaggle Notebook](https://www.kaggle.com/code/ahmedterry/bike-sales-analysis/notebook)  
+- **Jumlah data**: ±82.000 records  
+- **Kolom utama**: Customer Age, Age Group, Customer Gender, Country, Product Category, Sub Category, Product, Order Quantity, Revenue, Profit, dsb.  
 
 ---
 
 ## 📊 Visualizations
+### Tren Profit Bulanan
+![Tren Profit Bulanan](images/TrenProfitBulanan.png)
 
-### Profit Trend Month
-![Profit Trend Month](images/001.png)
+### Distribusi Kategori Produk
+![Distribusi Kategori Produk](images/DistribusiKategoriProduk.png)
 
-### Profit Trend Pendapatan
-![Profit Trend Pendapatan](images/002.png)
+### Distribusi Gender & Age Group
+<img src="images/DistribusiUsiaPelanggan.png" width="45%" />
+<img src="images/DistribusiGenderPelanggan.png" width="45%" />
 
-### Product Category Distribution
-![Product Category Distribution](images/003.png)
-
-### Customer Country Distribution
-![Customer Country Distribution](images/004.png)
-
-### Monthly Revenue
-![Monthly Revenue](images/005.png)
-
-### Customer Gender Distribution
-![ Customer Gender Distribution](images/006.png)
+### Revenue & Profit Patterns
+<img src="images/TrenRevenueperTahun.png" width="45%" />
+<img src="images/images/TrenProfitBulanan.png" width="45%" />
+ 
 
 ---
 
 ## ✅ Output
 
 ### 🔹 Analytical Result
-- Data cleaning & preprocessing dilakukan dengan Python (pandas, numpy).  
-- Visualisasi menggunakan matplotlib & seaborn.  
-- Statistik deskriptif menunjukkan rata-rata usia pelanggan ±35 tahun.  
+- Data cleaning & preprocessing dengan **Python** (`pandas`, `numpy`)  
+- Visualisasi menggunakan **matplotlib & seaborn**  
+- **Rata-rata usia pelanggan**: ±38 tahun  
 
 ### 🔹 Insights & Findings
-- Usia 30–40 tahun = kelompok pembeli terbesar.  
-- Pendapatan tinggi → lebih cenderung membeli sepeda.  
-- Pelanggan pria sedikit lebih banyak membeli dibanding wanita.  
+- **Kelompok pembeli terbesar**: Usia 30–50 tahun (Adults & Young Adults)  
+- **Pendapatan tinggi** → lebih cenderung membeli sepeda  
+- **Perbedaan gender**: Pria sedikit lebih banyak membeli, tetapi preferensi produk mirip  
+- High-value customers identified untuk strategi retention & upselling  
 
 ### 🔹 Recommendations
-- Fokus kampanye marketing ke kelompok usia 30–40 tahun.  
-- Paket cicilan untuk segmen pendapatan menengah agar meningkatkan konversi.  
-- Strategi pemasaran berbeda untuk pria & wanita (contoh: sepeda sport vs sepeda city).  
+- Fokus kampanye marketing ke kelompok usia 30–50 tahun  
+- Paket cicilan atau promo untuk segmen pendapatan menengah  
+- Strategi pemasaran berbeda untuk pria & wanita (contoh: sepeda sport vs sepeda city)  
+- Loyalty programs, personalized marketing, upselling & cross-selling  
 
 ---
 
 ## 🛠️ Tech Stack
-- Python (pandas, matplotlib, seaborn)  
-- Jupyter Notebook  
-- GitHub  
+- Python (`pandas`, `numpy`, `matplotlib`, `seaborn`)  
+- Jupyter Notebook / VS Code  
+- **LangChain + IBM Granite LLM** untuk insight & rekomendasi marketing  
+- Git & GitHub  
 
 ---
-## 🚀 Cara Menjalankan  
-1. Clone repository:  
-   ```bash
-   git clone https://github.com/fahranirusziady/bike-sales-capstone.git
-   
+
+## 🚀 Cara Menjalankan
+```bash
+git clone https://github.com/fahranirusziady/bike-sales-capstone.git
+cd bike-sales-capstone
+# Install dependencies
+pip install -r requirements.txt
+# Jalankan Jupyter Notebook
+jupyter notebook notebooks/bike_sales_analysis.ipynb
+
 ## ✨ Author
 **Fahrani Rusziady**  
-🌐 [GitHub](https://github.com/fahranirusziady) | 💼 [LinkedIn](https://linkedin.com/in/fahranirusziady) | ✉️ fahranirusziady@gmail.com  
+🌐 [GitHub](https://github.com/fahranirusziady) | 💼 [LinkedIn](https://linkedin.com/in/fahranirusziady) | ✉️ fahranirusziady@gmail.com
