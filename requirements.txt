@@ -2,4 +2,8 @@ pandas
 numpy
 matplotlib
 seaborn
-scikit-learn
+python-pptx
+langchain
+langchain-community
+langchain-experimental
+replicate
